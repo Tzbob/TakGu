@@ -1,0 +1,2 @@
+E:\Csharp\3DBasics\3DBasics\3DBasicsContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bob\Dropbox\Csharp\3DBasics\3DBasics\3DBasicsContent\obj\x86\Debug\ResolveAssemblyReference.cache
