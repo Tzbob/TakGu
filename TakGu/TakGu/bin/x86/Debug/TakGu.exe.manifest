@@ -44,12 +44,7 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="INuiInstanceHelper" version="0.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="x86" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Microsoft.Research.Kinect" version="1.0.0.45" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Microsoft.Kinect" version="1.0.0.0" publicKeyToken="31BF3856AD364E35" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
   <dependency>
@@ -139,14 +134,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TakGu.exe" size="128512">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TakGu.exe" size="129536">
       <assemblyIdentity name="TakGu" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>FO5Kr4wqju5R4kGfutIZItcZ13M=</dsig:DigestValue>
+        <dsig:DigestValue>BtD5Aqn6oqnv0APeWE9Bcv5J99o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -7,7 +7,6 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System.Diagnostics;
 using Microsoft.Xna.Framework.Audio;
-using Microsoft.Research.Kinect.Nui;
 
 namespace TakGu
 {

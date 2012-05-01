@@ -3,7 +3,7 @@
   <Asset Type="Graphics:MeshContent">
     <Name>default</Name>
     <Identity>
-      <SourceFilename>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGuContent\Model\low\sphere.FBX</SourceFilename>
+      <SourceFilename>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGuContent\Model\low\sphere.FBX</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <OpaqueData>

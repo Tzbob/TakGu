@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using Microsoft.Research.Kinect.Nui;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Audio;
 using System.Diagnostics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Kinect;
 
 namespace TakGu
 {
@@ -29,7 +29,9 @@ namespace TakGu
         private Texture2D textureActive;
 
         private Utility.Delegate_Paramless onActive;
+        private KinectSensor kinectSensor;
 
+        private KeyboardState oldState;
         /// <summary>
         /// Constructs the paddleManager object
         /// </summary>
@@ -62,55 +64,76 @@ namespace TakGu
         {
             base.Initialize();
 
-            if (Runtime.Kinects.Count > 0)
-            {
-                Runtime kinect = Runtime.Kinects[0];
-                kinect.Initialize(RuntimeOptions.UseSkeletalTracking);
-                kinect.SkeletonFrameReady += new EventHandler<SkeletonFrameReadyEventArgs>(KinectPaddle_SkeletonFrameReady);
-                /*
-                kinect.SkeletonEngine.TransformSmooth = true;
-                TransformSmoothParameters parameters = new TransformSmoothParameters();
-                parameters.Smoothing = 0.7f;
-                parameters.Correction = 0.3f;
-                parameters.Prediction = 0.4f;
-                parameters.JitterRadius = 1f;
-                parameters.MaxDeviationRadius = 0.5f;
-                kinect.SkeletonEngine.SmoothParameters = parameters;
-                */
-            }
+            //KinectSensor.KinectSensors.StatusChanged += new EventHandler<StatusChangedEventArgs>(KinectSensors_StatusChanged);
+            DiscoverKinectSensor();
 
+        }
+
+        private void DiscoverKinectSensor()
+        {
+            foreach (KinectSensor sensor in KinectSensor.KinectSensors)
+            {
+                if (sensor.Status == KinectStatus.Connected)
+                {
+                    kinectSensor = sensor;
+                    InitializeKinect();
+                    break;
+                }
+            }
+        }
+
+        private void InitializeKinect()
+        {
+            kinectSensor.SkeletonStream.Enable();
+            kinectSensor.SkeletonFrameReady +=new EventHandler<SkeletonFrameReadyEventArgs>(KinectPaddle_SkeletonFrameReady);
+
+            try
+            {
+                kinectSensor.Start();
+                kinectSensor.ElevationAngle = 0;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         private void KinectPaddle_SkeletonFrameReady(object sender, SkeletonFrameReadyEventArgs e)
         {
-            SkeletonFrame skelFrame = e.SkeletonFrame;
-            int skelAmount = 0;
-
-            foreach (SkeletonData skelData in skelFrame.Skeletons)
+            using (SkeletonFrame frame = e.OpenSkeletonFrame())
             {
-                if (SkeletonTrackingState.Tracked == skelData.TrackingState)
+                if (frame != null)
                 {
-                    skelAmount++;
-
-                    if (this.paddles.Count - 1 < skelAmount)
-                        this.AddNewPerson();
-
-                    Vector joint = skelData.Joints[JointID.Spine].Position;
-
-                    float scaleMax = 0.5f;
-
-                    Vector3 newPosition = new Vector3(
-                        this.Scale(this.xBound, scaleMax, joint.X)
-                        , this.Scale(this.yBound, scaleMax / this.GraphicsDevice.Viewport.AspectRatio, joint.Y) - 1f
-                        , 0
-                    );
-
-                    this.paddles[skelAmount].Position = newPosition;
+                    int skelAmount = 0;
+                    Skeleton[] skelData = new Skeleton[frame.SkeletonArrayLength];
+                    frame.CopySkeletonDataTo(skelData); 
+                    foreach (Skeleton data in skelData)
+                    {
+                        if (SkeletonTrackingState.Tracked == data.TrackingState)
+                        {
+                            skelAmount++;
+        
+                            if (this.paddles.Count - 1 < skelAmount)
+                                this.AddNewPerson();
+        
+                            SkeletonPoint joint = data.Joints[JointType.Spine].Position;
+        
+                            float scaleMax = 0.5f;
+        
+                            Vector3 newPosition = new Vector3(
+                                this.Scale(this.xBound, scaleMax, joint.X)
+                                , this.Scale(this.yBound, scaleMax / this.GraphicsDevice.Viewport.AspectRatio, joint.Y) - 1f
+                                , 0
+                            );
+        
+                            this.paddles[skelAmount].Position = newPosition;
+                        }
+                    }
+        
+                    if (this.paddles.Count > skelAmount + 1)
+                        this.paddles.RemoveAt(this.paddles.Count - 1);
                 }
             }
-
-            if (this.paddles.Count > skelAmount + 1)
-                this.paddles.RemoveAt(this.paddles.Count - 1);
         }
 
         /// <summary>
@@ -119,6 +142,23 @@ namespace TakGu
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         public override void Update(GameTime gameTime)
         {
+            KeyboardState state = Keyboard.GetState();
+            InputUtility.ExecuteOnToggle(
+                Keys.Up
+                , oldState
+                , state
+                , tiltKinectUp
+            );
+
+            InputUtility.ExecuteOnToggle(
+                Keys.Down
+                , oldState
+                , state
+                , tiltKinectDown
+            );
+
+            oldState = state;
+
             foreach (Paddle paddle in this.paddles)
             {
                 if (paddle.GetType() == typeof(KinectPaddle))
@@ -129,6 +169,36 @@ namespace TakGu
                 }
             }
             base.Update(gameTime);
+        }
+
+        private void tiltKinectUp()
+        {
+            if (kinectSensor != null)
+                if (kinectSensor.Status == KinectStatus.Connected)
+                    if(kinectSensor.ElevationAngle < kinectSensor.MaxElevationAngle -5)
+                        try
+                        {
+                            kinectSensor.ElevationAngle += 5;
+                        }
+                        catch (Exception)
+                        {
+                            //ignore
+                        }
+        }
+
+        private void tiltKinectDown()
+        {
+            if (kinectSensor != null)
+                if (kinectSensor.Status == KinectStatus.Connected)
+                    if(kinectSensor.ElevationAngle > kinectSensor.MinElevationAngle +5)
+                        try
+                        {
+                            kinectSensor.ElevationAngle -= 5;
+                        }
+                        catch (Exception)
+                        {
+                            //ignore
+                        }
         }
 
         /// <summary>
@@ -183,6 +253,12 @@ namespace TakGu
         {
             set { this.onActive += value; } 
             get { return this.onActive; }
+        }
+
+        public KinectSensor sensor
+        {
+            set { this.kinectSensor = value; } 
+            get { return this.kinectSensor; }
         }
     }
 }

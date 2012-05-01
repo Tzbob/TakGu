@@ -1,2 +1,3 @@
 C:\Users\Bob\Dropbox\Csharp\3DBasics\3DBasics\3DBasicsContent\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGuContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGuContent\obj\x86\Debug\ResolveAssemblyReference.cache

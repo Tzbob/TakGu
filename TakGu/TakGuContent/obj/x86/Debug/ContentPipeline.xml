@@ -7,8 +7,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Audio\shot.xnb</Output>
-      <Time>2011-10-18T07:59:44.9290689+02:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Audio\shot.xnb</Output>
+      <Time>2011-10-18T07:59:44+02:00</Time>
     </Item>
     <Item>
       <Source>Audio\uibeep.wav</Source>
@@ -16,8 +16,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Audio\uibeep.xnb</Output>
-      <Time>2012-01-05T15:50:02.5701673+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Audio\uibeep.xnb</Output>
+      <Time>2012-01-05T15:50:02+01:00</Time>
     </Item>
     <Item>
       <Source>Font\verdana.spritefont</Source>
@@ -25,8 +25,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Font\verdana.xnb</Output>
-      <Time>2012-01-06T10:08:39.5324238+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Font\verdana.xnb</Output>
+      <Time>2012-01-06T10:08:39+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\wall.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\wall.xnb</Output>
-      <Time>2011-10-23T18:27:19.9216213+02:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\wall.xnb</Output>
+      <Time>2011-10-23T18:27:19+02:00</Time>
     </Item>
     <Item>
       <Source>Texture\floor.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\floor.xnb</Output>
-      <Time>2011-10-23T18:27:19.8566175+02:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\floor.xnb</Output>
+      <Time>2011-10-23T18:27:19+02:00</Time>
     </Item>
     <Item>
       <Source>Texture\high\interstellar_dn.tga</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\interstellar_dn.xnb</Output>
-      <Time>2011-12-05T14:07:07.3862505+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\interstellar_dn.xnb</Output>
+      <Time>2011-12-05T14:07:07+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\high\interstellar_ft.tga</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\interstellar_ft.xnb</Output>
-      <Time>2011-12-05T14:07:13.0555748+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\interstellar_ft.xnb</Output>
+      <Time>2011-12-05T14:07:13+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\high\interstellar_lf.tga</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\interstellar_lf.xnb</Output>
-      <Time>2011-12-05T14:07:18.8149042+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\interstellar_lf.xnb</Output>
+      <Time>2011-12-05T14:07:18+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\high\interstellar_rt.tga</Source>
@@ -79,8 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\interstellar_rt.xnb</Output>
-      <Time>2011-12-05T14:07:26.3773367+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\interstellar_rt.xnb</Output>
+      <Time>2011-12-05T14:07:26+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\high\interstellar_up.tga</Source>
@@ -88,8 +88,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\interstellar_up.xnb</Output>
-      <Time>2011-12-05T14:07:36.871937+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\interstellar_up.xnb</Output>
+      <Time>2011-12-05T14:07:36+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\low\interstellar_dn.tga</Source>
@@ -97,8 +97,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\interstellar_dn.xnb</Output>
-      <Time>2011-12-05T13:56:30.0367962+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\interstellar_dn.xnb</Output>
+      <Time>2011-12-05T13:56:30+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\low\interstellar_ft.tga</Source>
@@ -106,8 +106,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\interstellar_ft.xnb</Output>
-      <Time>2011-12-05T13:57:33.21841+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\interstellar_ft.xnb</Output>
+      <Time>2011-12-05T13:57:33+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\low\interstellar_lf.tga</Source>
@@ -115,8 +115,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\interstellar_lf.xnb</Output>
-      <Time>2011-12-05T13:57:48.8593046+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\interstellar_lf.xnb</Output>
+      <Time>2011-12-05T13:57:48+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\low\interstellar_rt.tga</Source>
@@ -124,8 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\interstellar_rt.xnb</Output>
-      <Time>2011-12-05T13:58:00.7229832+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\interstellar_rt.xnb</Output>
+      <Time>2011-12-05T13:58:00+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\low\interstellar_up.tga</Source>
@@ -133,8 +133,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\interstellar_up.xnb</Output>
-      <Time>2011-12-05T13:58:25.8064179+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\interstellar_up.xnb</Output>
+      <Time>2011-12-05T13:58:25+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\med\interstellar_dn.tga</Source>
@@ -142,8 +142,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\interstellar_dn.xnb</Output>
-      <Time>2011-12-05T14:03:50.4449861+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\interstellar_dn.xnb</Output>
+      <Time>2011-12-05T14:03:50+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\med\interstellar_ft.tga</Source>
@@ -151,8 +151,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\interstellar_ft.xnb</Output>
-      <Time>2011-12-05T14:04:47.0142217+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\interstellar_ft.xnb</Output>
+      <Time>2011-12-05T14:04:47+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\med\interstellar_lf.tga</Source>
@@ -160,8 +160,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\interstellar_lf.xnb</Output>
-      <Time>2011-12-05T14:04:58.6158853+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\interstellar_lf.xnb</Output>
+      <Time>2011-12-05T14:04:58+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\med\interstellar_rt.tga</Source>
@@ -169,8 +169,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\interstellar_rt.xnb</Output>
-      <Time>2011-12-05T14:05:03.262151+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\interstellar_rt.xnb</Output>
+      <Time>2011-12-05T14:05:03+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\med\interstellar_up.tga</Source>
@@ -178,8 +178,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\interstellar_up.xnb</Output>
-      <Time>2011-12-05T14:05:08.5274522+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\interstellar_up.xnb</Output>
+      <Time>2011-12-05T14:05:08+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\high\paddle.png</Source>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\paddle.xnb</Output>
-      <Time>2011-12-05T14:07:43.8773377+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\paddle.xnb</Output>
+      <Time>2011-12-05T14:07:43+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\high\paddleclicked.png</Source>
@@ -196,8 +196,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\paddleclicked.xnb</Output>
-      <Time>2011-12-05T14:07:48.6766122+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\high\paddleclicked.xnb</Output>
+      <Time>2011-12-05T14:07:48+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\low\paddle.png</Source>
@@ -205,8 +205,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\paddle.xnb</Output>
-      <Time>2011-12-05T14:01:23.406576+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\paddle.xnb</Output>
+      <Time>2011-12-05T14:01:23+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\low\paddleclicked.png</Source>
@@ -214,8 +214,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\paddleclicked.xnb</Output>
-      <Time>2011-12-05T14:01:12.199935+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\low\paddleclicked.xnb</Output>
+      <Time>2011-12-05T14:01:12+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\med\paddle.png</Source>
@@ -223,8 +223,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\paddle.xnb</Output>
-      <Time>2011-12-05T14:02:05.5019837+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\paddle.xnb</Output>
+      <Time>2011-12-05T14:02:05+01:00</Time>
     </Item>
     <Item>
       <Source>Texture\med\paddleclicked.png</Source>
@@ -232,8 +232,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\paddleclicked.xnb</Output>
-      <Time>2011-12-05T14:02:08.444152+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Texture\med\paddleclicked.xnb</Output>
+      <Time>2011-12-05T14:02:08+01:00</Time>
     </Item>
     <Item>
       <Source>Model\med\sphere.FBX</Source>
@@ -241,11 +241,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Model\med\sphere.xnb</Output>
-      <Time>2012-01-05T11:16:10.1572871+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Model\med\sphere.xnb</Output>
+      <Time>2012-01-05T11:16:10+01:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Model\med\sphere_0.xml</Key>
-        <Value>2012-01-08T04:26:23.3565671+01:00</Value>
+        <Value>2012-04-28T18:39:13.2787409+02:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -254,11 +254,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Model\low\sphere.xnb</Output>
-      <Time>2012-01-05T11:13:28.0900174+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Model\low\sphere.xnb</Output>
+      <Time>2012-01-05T11:13:28+01:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Model\low\sphere_0.xml</Key>
-        <Value>2012-01-08T04:26:23.5405776+01:00</Value>
+        <Value>2012-04-28T18:39:13.8857757+02:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -267,11 +267,11 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Model\high\sphere.xnb</Output>
-      <Time>2012-01-05T11:14:09.4483829+01:00</Time>
+      <Output>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\Model\high\sphere.xnb</Output>
+      <Time>2012-01-05T11:14:09+01:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\Model\high\sphere_0.xml</Key>
-        <Value>2012-01-08T04:26:24.6156391+01:00</Value>
+        <Value>2012-04-28T18:39:15.0138402+02:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -279,21 +279,21 @@
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Model\med\sphere_0.xml</Output>
-      <Time>2012-01-05T11:16:10.1572871+01:00</Time>
+      <Time>2012-01-05T11:16:10+01:00</Time>
     </Item>
     <Item>
       <Source>Model\low\sphere.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Model\low\sphere_0.xml</Output>
-      <Time>2012-01-05T11:13:28.0900174+01:00</Time>
+      <Time>2012-01-05T11:13:28+01:00</Time>
     </Item>
     <Item>
       <Source>Model\high\sphere.FBX</Source>
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\Model\high\sphere_0.xml</Output>
-      <Time>2012-01-05T11:14:09.4483829+01:00</Time>
+      <Time>2012-01-05T11:14:09+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -301,10 +301,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGuContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGuContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Bob\Dropbox\Csharp\TakGu\TakGu\TakGu\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGuContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGuContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Bob\Dropbox\Xna\TakGu\TakGu\TakGu\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
